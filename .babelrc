@@ -1,0 +1,6 @@
+{
+  "presets": ["es2015", "stage-0"],
+  "plugins": ["jsx-control-statements", ["module-alias", [
+    { "src": "./lib", "expose": "lib" }
+  ]]]
+}
